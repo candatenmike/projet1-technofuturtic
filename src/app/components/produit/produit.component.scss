@@ -1,0 +1,25 @@
+img {
+    width:85%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.a{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    
+}
+.f{
+    flex:auto;
+    background-color:grey;
+    border: 1px solid black;
+    width: 20%;
+    margin: 20px;
+}
+
+.f>*{
+    text-align: center;
+    margin: auto;
+}

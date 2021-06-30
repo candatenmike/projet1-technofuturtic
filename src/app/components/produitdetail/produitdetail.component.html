@@ -1,0 +1,7 @@
+<p>Voici les informations détaillé de ce produit:</p>
+<div *ngFor="let data of produit">
+<p>nom du produit:</p> <p class='textitem'>{{data.nom_produit}}</p>
+    <p>prix à l'unité:</p> <p class='textitem'>{{data.prix_unite}}€</p>
+    <p>quantité restante:</p> <p class='textitem'>{{data.stock}} en stock</p>
+    <img src="{{data.produit_image}}" alt="Photo de {{data.nom_produit}}" style="width: 150px;">
+</div>

@@ -1,0 +1,10 @@
+<h1>Voici la liste de nos produits disponibles.</h1>
+<div class="a">
+    <div class="f" *ngFor="let prod of produits"  routerLink='{{prod.produitID}}'>
+        <p>{{prod.nom_produit}}</p>
+        <p>{{prod.prix_unite}}€</p>
+        <div>
+            <img src="{{prod.produit_image}}" alt="une image de {{prod.nom_produit}}">
+        </div>
+    </div>
+</div>

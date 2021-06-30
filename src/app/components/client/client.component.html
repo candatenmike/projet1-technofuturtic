@@ -1,0 +1,7 @@
+<div style="display: flex;">
+    <div *ngFor="let user of clients" style="border: 1px solid black; flex: auto; margin: 20px;" routerLink='{{user.clientID}}'>
+        <p>{{user.nom}}</p>
+        <p>{{user.prenom}}</p>
+        
+    </div>
+</div>
